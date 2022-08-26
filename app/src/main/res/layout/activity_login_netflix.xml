@@ -65,7 +65,7 @@
       android:id="@+id/gl_center"
       android:layout_height="wrap_content"
       android:orientation="horizontal"
-      app:layout_constraintGuide_percent="0.5"
+      app:layout_constraintGuide_percent="0.5"></androidx.constraintlayout.widget.Guideline>
 
   <Button
       android:id="@+id/btn_login"
