@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="magirn_short">8dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="Line_height">1dp</dimen>
+    <dimen name="height_logo">50dp</dimen>
+
+    <dimen name="need_help_font_size">18sp</dimen>
+    <dimen name="font_size_title">20sp</dimen>
+</resources>
