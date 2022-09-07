@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Recycler"
+        android:backgroundTint="@color/netflix_red"
         />
 
     <Button
@@ -30,6 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Anáhuac"
+        android:backgroundTint="@color/anahuac_orange"
+        />
+
+    <Button
+        android:id="@+id/btn_alertas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alerta"
         />
 
 </LinearLayout>

@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnLoginFacebook;
     private Button btnRecyclerCampus;
+    private Button btnAlerta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnLoginFacebook = findViewById(R.id.btn_log_in_facebook);
         btnLoginFacebook = findViewById(R.id.btn_recycler);
+        btnAlerta = findViewById(R.id.btn_alerta);
 
         btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +46,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Boton pulsado", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this, ListCampusActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnRecyclerCampus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Boton pulsado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, AlertActivity.class);
                 startActivity(intent);
             }
         });
