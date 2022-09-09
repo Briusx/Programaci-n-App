@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">anahuac</string>
     <string name="hint_email_or_phone_number">Email or phone number</string>
-    <string name="password">Password</string>
+    <string name="password">PASSWORD</string>
     <string name="btn_login">Log in</string>
     <string name="txt_need_help">Need Help?</string>
     <string name="txt_sign_up">Sign Up for Facebook</string>
@@ -11,4 +11,7 @@
     <string name="btn_alerta">Alerta</string>
     <string name="btn_alerta_with_button">Alerta con botones</string>
     <string name="btn_alert_with_options">Alerta con opciones</string>
+    <string name="login_title">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="txt_forgot_password">Forgot password?</string>
 </resources>

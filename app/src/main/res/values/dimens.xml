@@ -12,4 +12,5 @@
 
     <dimen name="marign_medium">8dp</dimen>
     <dimen name="capus_large_height">200dp</dimen>
+    <dimen name="margin_secondary">22dp</dimen>
 </resources>
