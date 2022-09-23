@@ -14,5 +14,6 @@
     <color name="black_50">#80000000</color>
     <color name="anahuac_orange">#FF5A00</color>
     <color name="login_purple">#924DCE</color>
+    <color name="invisible">#00924DCE</color>
 
 </resources>

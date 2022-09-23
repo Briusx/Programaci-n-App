@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anahuac">
         <activity
+            android:name="exam1.ExamenProg2"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenProgramacion1"
+            android:exported="false" />
+        <activity
             android:name=".LoginTwoActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExamenProgramacion1">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_size"
+        android:elevation="8dp"
+        android:src="@drawable/logo_anahuac_cancun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/cv_pleca1"
+        android:layout_marginBottom="@dimen/margin_logo"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_pleca1"
+        android:layout_width="@dimen/width_pleca"
+        android:layout_height="@dimen/pleca1_height"
+        app:cardCornerRadius="@dimen/corner_radius_pleca"
+        android:backgroundTint="@color/anahuac_orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_sign_in_now"
+        android:textSize="@dimen/font_size_title"
+        android:textColor="@color/anahuac_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/gl_50"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_anahuac"
+        app:layout_constraintTop_toBottomOf="@id/gl_50"
+        app:cardCornerRadius="@dimen/corner_radius_input">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_1"
+                android:layout_gravity="center"
+                android:paddingStart="@dimen/margin_default"/>
+
+            <TextView
+                android:hint="@string/txt_phone"
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/margin_default"
+                android:layout_marginStart="@dimen/margin_default"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_anahuac"
+        android:layout_marginVertical="@dimen/margin_default"
+        app:layout_constraintTop_toBottomOf="@id/info1"
+        app:cardCornerRadius="@dimen/corner_radius_input">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lock_1"
+                android:layout_gravity="center"
+                android:paddingStart="@dimen/margin_default"/>
+
+            <TextView
+                android:hint="@string/password"
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/margin_default"
+                android:layout_marginStart="@dimen/margin_default"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_sign_in_anahuac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="@dimen/margin_anahuac"
+        android:text="@string/btn_signin"
+        android:backgroundTint="@color/anahuac_orange"
+        android:layout_marginBottom="@dimen/sign_in_button"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

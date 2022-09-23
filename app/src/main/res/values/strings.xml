@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">anahuac</string>
     <string name="hint_email_or_phone_number">Email or phone number</string>
-    <string name="password">PASSWORD</string>
+    <string name="password">Password</string>
     <string name="btn_login">Log in</string>
     <string name="txt_need_help">Need Help?</string>
     <string name="txt_sign_up">Sign Up for Facebook</string>
@@ -14,4 +14,14 @@
     <string name="login_title">LOGIN</string>
     <string name="email">EMAIL</string>
     <string name="txt_forgot_password">Forgot password?</string>
+
+    <string name="txt_sign_in_now">Sign In Now</string>
+    <string name="txt_phone">Phone number or email</string>
+    <string name="btn_signin">Sign in</string>
+    <string name="my_name">Brian Andres Uscanga Sosa</string>
+    <string name="my_email">brian.uscangaso@anahuac.mx</string>
+    <string name="horario">Horario de clases</string>
+    <string name="materias">Materias</string>
+    <string name="calificaciones">Calificaciones</string>
+    <string name="pago">Pago de colegiaturas</string>
 </resources>
